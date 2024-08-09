@@ -1,9 +1,15 @@
 import React from 'react'
 
-const Reliability = () => {
+import reliabilityImg from '/public/reliability.jpg'
+import Hero from '../_components/Hero'
+
+export default function ReliabilityPage() {
     return (
-        <div>Reliability</div>
+        <Hero
+            imgData={reliabilityImg}
+            imgAlt='welding'
+            title='Super high relaibility hosting'
+        />
     )
 }
 
-export default Reliability

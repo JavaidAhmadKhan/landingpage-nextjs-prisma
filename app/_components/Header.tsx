@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <div className="w-full absolute text-white z-10">
-            <nav className="contaienr relative flex flex-wrap items-center justify-between mx-auto p-8">
+        <div className="w-full absolute text-white z-10 border-b border-slate-600 shadow-lg">
+            <nav className="contaienr relative flex flex-wrap items-center justify-between mx-auto p-8 ">
                 <Link href="/" className="font-bond text-3xl">
                     Home
                 </Link>
